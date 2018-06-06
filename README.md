@@ -5,9 +5,9 @@ An XRP wallet is essentially just a private keypair. This tool allows you to gen
 ## Credits
 
 The code used in this tool is a stripped back version of WietseWind's xrp-vanity-generator (https://github.com/WietseWind/xrp-vanity-generator)
-I have to give him credit for both the code (which is amazing, yet simple), and some of the below instructions.
+I have to give him credit for both the code (which is amazing, yet simple), and a very large majority of the below instructions/information.
 
-Check him out on Twitter: [@WietseWind](https://twitter.com/WietseWind)
+Check him out on Twitter: [@WietseWind](https://twitter.com/WietseWind) or donate to him using one of the below methods.
 
 ## How to use this tool
 

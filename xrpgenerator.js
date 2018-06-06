@@ -1,15 +1,23 @@
 const rippleLib  = require('ripple-lib').RippleAPI
 const api        = new rippleLib()
-const count    = process.argv[2]
+const inputCount    = process.argv[2]
+const MAX_COUNT = 20
 
 console.log('')
 console.log('\x1b[35m%s\x1b[0m', 'XRP Simple Wallet Generator')
 console.log('\x1b[35m%s\x1b[0m', '   by @retryWhore (Twitter)')
 console.log('')
 
-if (count.length > 0) {
+if (inputCount > 0) {
 
-  console.log('Generating ' + process.argv[2] + ' wallets (private keypairs):')
+  if(inputCount > 20) {
+	  console.log('Excessive number of wallets chosen, defaulting to ' + MAX_COUNT + '.')
+	  count = MAX_COUNT
+  }
+  else {
+	  count = inputCount
+  }
+	console.log('Generating ' + count + ' wallets:')
 
   for (let i = 0; i < count; i++) {
     account = api.generateAddress();
@@ -22,8 +30,8 @@ if (count.length > 0) {
   console.log('Access to the secret (private) key means access to your XRP. Exercise caution! and HODL :D')
 
 } else {
-  console.log('Please enter the desired number of addresses after the script to generate.')
-  console.log('Eg. "node ' + process.argv[1] + ' 5"')
+  console.log('Please enter the desired number of wallets (greater than zero) after the script to generate.')
+  console.log('Eg. "node xrpgenerator.js 5"')
   console.log('')
   process.exit(0)
 }
