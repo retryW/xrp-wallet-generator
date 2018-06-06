@@ -50,7 +50,7 @@ More info about this method [over here](https://nodejs.org/api/crypto.html#crypt
 ### Feeling generous?
 
 WietseWind's details are below if you want to check out his stuff, or give him a well deserved donation.
-If this tool helped you out and you're feeling more generous than I deserve, feel free to tip my XRP address r3d764J1rtwnhHXv1FiwWU95nSoWfFofHt
+If this tool helped you out and you're feeling more generous than I deserve, feel free to tip my XRP address `r3d764J1rtwnhHXv1FiwWU95nSoWfFofHt`
 
 Tips are highly appreciated at XRP address `rPdvC6ccq8hCdPKSPJkPmyZ4Mi1oG2FFkT` or using
 the [XRP TipBot](https://xrptipbot.com) at Twitter: [@WietseWind](https://twitter.com/WietseWind) 😇
