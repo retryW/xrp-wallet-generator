@@ -2,6 +2,7 @@ const rippleLib  = require('ripple-lib').RippleAPI
 const api        = new rippleLib()
 const count    = process.argv[2]
 
+console.log('')
 console.log('\x1b[35m%s\x1b[0m', 'XRP Simple Wallet Generator')
 console.log('\x1b[35m%s\x1b[0m', '   by @retryWhore (Twitter)')
 console.log('')
