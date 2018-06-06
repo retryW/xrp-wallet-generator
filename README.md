@@ -34,7 +34,7 @@ The example command above will create five wallets (private keypairs).
 
 Good question indeed. The only way to be sure is to check the code;
 
-Wietse original code [is over here](https://github.com/WietseWind/xrp-vanity-generator/blob/master/xrpwallet.js) and as you can see is invoking the method "api.generateAddress()" - and on line 1 and 2:
+Wietse's original code [is over here](https://github.com/WietseWind/xrp-vanity-generator/blob/master/xrpwallet.js) and as you can see, is invoking the method "api.generateAddress()" - and on line 1 and 2:
 
     const rippleLib  = require('ripple-lib').RippleAPI
     const api        = new rippleLib()
