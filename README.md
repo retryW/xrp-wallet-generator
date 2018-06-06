@@ -17,7 +17,7 @@ Check him out on Twitter: [@WietseWind](https://twitter.com/WietseWind) or donat
 2. Download the source of this repository (using `git clone` or by downloading the zip)
 3. Start your commandline and go to the folder containing the source of this repository
 4. Install the dependency (ripple-lib) by running `npm install`
-5. Fire up the tool and **append the number of private keys desire**:
+5. Fire up the tool and **append the number of private keys desired**:
 ```
 node xrpwallet.js 5
 ```
